@@ -13,6 +13,7 @@ The [Archetech](https://archetech.com) Nomicon
 1. Projects that fall under the jurisdiction of Archonomicon:
     * [Archon](https://github.com/archetech/archon)
     * [Archon schemas](https://github.com/archetech/schemas)
+    * [Sigil](https://github.com/archetech/sigil)
 
 ## Conventions
 
