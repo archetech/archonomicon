@@ -29,6 +29,9 @@ The [Archetech](https://archetech.com) Nomicon
     * [Archon](https://github.com/archetech/archon)
     * [Archon schemas](https://github.com/archetech/schemas)
     * [Sigil](https://github.com/archetech/sigil)
+1. A project is added to or removed from that list only by an adopted proposal.
+1. Changes to a project's repository are not rule changes. They are made through the project's own development process, and they MUST comply with the rules of the game.
+1. A project MAY keep its own rules in its repository, such as contribution guidelines or instructions for coding agents. Project rules MUST NOT conflict with the rules of the game, and where they do, the rules of the game prevail.
 
 ## Conventions
 
