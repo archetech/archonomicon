@@ -20,6 +20,11 @@ The [Archetech](https://archetech.com) Nomicon
 1. Anyone MAY submit a proposal, but only the agreement of players counts toward its adoption.
 1. The Operator is the player who maintains the game repository and carries out the provisions of the rules that are not yet automated. The Operator is [macterra](https://github.com/macterra).
 1. A proposal is adopted when the Operator merges it. By merging a proposal, the Operator certifies that all players agreed to it.
+1. A proposal MUST state the change and the reason for it. It SHOULD also state the alternatives considered and its effect on compatibility and security in the projects under jurisdiction.
+1. A player agrees to a proposal by approving its pull request. A player who submits a proposal agrees to it by submitting it, and the Operator's merge counts as the Operator's agreement.
+1. An agreement applies only to the text of the proposal as it was when the player approved it. If the proposal changes after that, the earlier agreement no longer counts.
+1. The adopted text of a proposal is exactly the text merged. A proposal closed without merging is not adopted; it MAY be submitted again.
+1. An adopted rule change takes effect when it is merged and does not apply to anything that happened before then.
 1. Every change made to the game repository before this rule was adopted, including [Proposal #1](https://github.com/archetech/archonomicon/pull/1), is ratified as a validly adopted rule change.
 
 ## Jurisdiction
