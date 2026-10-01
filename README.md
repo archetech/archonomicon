@@ -53,7 +53,7 @@ The [Archetech](https://archetech.com) Nomicon
 
 **40.** The immutable rules are rules 2, 3, 4, 9, 13, 26, 27, 28, 29, 30, 37, 38, 39, 40, 41, 42 and 43.
 
-**41.** An immutable rule MUST NOT be amended or repealed. To change it, a proposal MUST first transmute it into a mutable rule by amending rule 40, which is the only way rule 40 may be amended. A transmutation proposal, in either direction, MUST do nothing else, MUST be open for at least 14 days, and MUST NOT be adopted without the agreement of every player. This rule takes precedence over rule 4.
+**41.** An immutable rule MUST NOT be amended or repealed. To change it, a proposal MUST first transmute it into a mutable rule by amending rule 40, which is the only way rule 40 may be amended. A transmutation proposal, in either direction, MUST do nothing else and MUST NOT be adopted without the agreement of every player. This rule takes precedence over rule 4.
 
 **42.** The Operator MUST NOT merge a proposal that would make it impossible to adopt further proposals. At least one rule MUST always be mutable.
 
