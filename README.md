@@ -21,7 +21,7 @@ The [Archetech](https://archetech.com) Nomicon
 
 ## Proposals
 
-**9.** The rules of the game are the text of the default branch of the [game repository](https://github.com/archetech/archonomicon).
+**9.** The rules of the game are the text of the default branch of the [game repository](https://github.com/archetech/archonomicon), except for records that the rules direct the Operator to keep, such as the list of players. Updating such a record as the rules direct is not a rule change.
 
 **10.** A proposal is a pull request to the game repository that adds, amends or repeals rules.
 
@@ -51,13 +51,11 @@ The [Archetech](https://archetech.com) Nomicon
 
 **39.** Every rule is either mutable or immutable. A rule is mutable unless rule 40 lists it as immutable.
 
-**40.** The immutable rules are rules 2, 3, 4, 9, 13, 26, 27, 28, 29, 30, 37, 38, 39, 40, 41, 42 and 43.
+**40.** The immutable rules are rules 2, 3, 4, 9, 13, 26, 27, 28, 29, 37, 38, 39, 40, 41 and 42.
 
 **41.** An immutable rule MUST NOT be amended or repealed. To change it, a proposal MUST first transmute it into a mutable rule by amending rule 40, which is the only way rule 40 may be amended. A transmutation proposal, in either direction, MUST do nothing else and MUST NOT be adopted without the agreement of every player. This rule takes precedence over rule 4.
 
-**42.** The Operator MUST NOT merge a proposal that would make it impossible to adopt further proposals. At least one rule MUST always be mutable.
-
-**43.** No rule may prevent a player from objecting to a proposal.
+**42.** The Operator MUST NOT merge a proposal that would make it impossible to adopt further proposals.
 
 ## Succession
 
@@ -87,8 +85,6 @@ The [Archetech](https://archetech.com) Nomicon
 ## Precedence
 
 **29.** If two rules of the game conflict, an immutable rule prevails over a mutable one. Otherwise, a rule that explicitly claims precedence over the other prevails. Otherwise, or if each claims precedence over the other, the rule with the lower number prevails.
-
-**30.** No rule may claim precedence over rule 29.
 
 **31.** Rule 29 applies only to the rules of the game. It does not change how Ulex 1.1 resolves conflicts among its own provisions under rule 20.
 
