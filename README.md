@@ -5,7 +5,7 @@ The [Archetech](https://archetech.com) Nomicon
 
 **2.** The goal of the game is to decentralize the singularity.
 
-**3.** All players must unanimously agree to all rule changes.
+**3.** A proposal MUST NOT be adopted while any player objects to it.
 
 **4.** Proposals may add, amend or repeal a rule.
 
@@ -25,17 +25,21 @@ The [Archetech](https://archetech.com) Nomicon
 
 **10.** A proposal is a pull request to the game repository that adds, amends or repeals rules.
 
-**11.** Anyone MAY submit a proposal, but only the agreement of players counts toward its adoption.
+**11.** Anyone MAY submit a proposal, but only the agreement and objections of players count toward its adoption.
 
 **12.** The Operator is the player who maintains the game repository and carries out the provisions of the rules that are not yet automated. The Operator is [macterra](https://github.com/macterra).
 
-**13.** A proposal is adopted when the Operator merges it. By merging a proposal, the Operator certifies that all players agreed to it.
+**13.** A proposal is adopted when the Operator merges it. By merging a proposal, the Operator certifies that it met the conditions for adoption in rules 3 and 37.
 
 **14.** A proposal MUST state the change and the reason for it. It SHOULD also state the alternatives considered and its effect on compatibility and security in the projects under jurisdiction.
 
 **15.** A player agrees to a proposal by approving its pull request. A player who submits a proposal agrees to it by submitting it, and the Operator's merge counts as the Operator's agreement.
 
 **16.** An agreement applies only to the text of the proposal as it was when the player approved it. If the proposal changes after that, the earlier agreement no longer counts.
+
+**37.** A proposal MAY be merged once it has been open for at least 7 days, or sooner if every player has agreed to it. If the proposal changes, the 7 days start again from the change.
+
+**38.** A player objects to a proposal by requesting changes on its pull request. The objection stands until the player withdraws it, by approving the proposal or dismissing their review.
 
 **17.** The adopted text of a proposal is exactly the text merged. A proposal closed without merging is not adopted; it MAY be submitted again.
 
