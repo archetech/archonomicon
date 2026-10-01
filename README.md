@@ -74,7 +74,7 @@ The [Archetech](https://archetech.com) Nomicon
 
 **29.** If two rules of the game conflict, a rule that explicitly claims precedence over the other prevails. Otherwise, or if each claims precedence over the other, the rule with the lower number prevails.
 
-**30.** No rule may claim precedence over rule 29.
+**30.** A claim of precedence over rule 29 or over this rule has no effect, whatever rule 29 says.
 
 **31.** Rule 29 applies only to the rules of the game. It does not change how Ulex 1.1 resolves conflicts among its own provisions under rule 20.
 
