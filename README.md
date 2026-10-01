@@ -47,6 +47,18 @@ The [Archetech](https://archetech.com) Nomicon
 
 **19.** Every change made to the game repository before this rule was adopted, including [Proposal #1](https://github.com/archetech/archonomicon/pull/1), is ratified as a validly adopted rule change.
 
+## Immutable rules
+
+**39.** Every rule is either mutable or immutable. A rule is mutable unless rule 40 lists it as immutable.
+
+**40.** The immutable rules are rules 2, 3, 4, 9, 13, 26, 27, 28, 29, 30, 37, 38, 39, 40, 41, 42 and 43.
+
+**41.** An immutable rule MUST NOT be amended or repealed. To change it, a proposal MUST first transmute it into a mutable rule by amending rule 40, which is the only way rule 40 may be amended. A transmutation proposal, in either direction, MUST do nothing else, MUST be open for at least 14 days, and MUST NOT be adopted without the agreement of every player. This rule takes precedence over rule 4.
+
+**42.** The Operator MUST NOT merge a proposal that would make it impossible to adopt further proposals. At least one rule MUST always be mutable.
+
+**43.** No rule may prevent a player from objecting to a proposal.
+
 ## Succession
 
 **33.** The backup Operator is [Flaxscrip](https://github.com/Flaxscrip).
@@ -76,7 +88,7 @@ The [Archetech](https://archetech.com) Nomicon
 
 ## Precedence
 
-**29.** If two rules of the game conflict, a rule that explicitly claims precedence over the other prevails. Otherwise, or if each claims precedence over the other, the rule with the lower number prevails.
+**29.** If two rules of the game conflict, an immutable rule prevails over a mutable one. Otherwise, a rule that explicitly claims precedence over the other prevails. Otherwise, or if each claims precedence over the other, the rule with the lower number prevails.
 
 **30.** No rule may claim precedence over rule 29.
 
