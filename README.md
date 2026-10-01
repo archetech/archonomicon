@@ -7,6 +7,21 @@ The [Archetech](https://archetech.com) Nomicon
 1. Proposals may add, amend or repeal a rule.
 1. All rules should be logically self-consistent.
 
+## Players
+
+1. The players of the game are listed in [players.md](players.md).
+1. A person becomes a player when a proposal adding them to the list is adopted.
+1. A player may leave the game at any time by announcing it in the game repository, after which the Operator MUST remove them from the list.
+
+## Proposals
+
+1. The rules of the game are the text of the default branch of the [game repository](https://github.com/archetech/archonomicon).
+1. A proposal is a pull request to the game repository that adds, amends or repeals rules.
+1. Anyone MAY submit a proposal, but only the agreement of players counts toward its adoption.
+1. The Operator is the player who maintains the game repository and carries out the provisions of the rules that are not yet automated. The Operator is [macterra](https://github.com/macterra).
+1. A proposal is adopted when the Operator merges it. By merging a proposal, the Operator certifies that all players agreed to it.
+1. Every change made to the game repository before this rule was adopted, including [Proposal #1](https://github.com/archetech/archonomicon/pull/1), is ratified as a validly adopted rule change.
+
 ## Jurisdiction
 
 1. Only [Ulex 1.1](https://github.com/proftomwbell/Ulex/tree/master/versions/1.1) governs any claim or question arising under or related to this agreement, including the proper forum for resolving disputes, all rules applied therein, and the form and effect of any judgement.
@@ -14,6 +29,9 @@ The [Archetech](https://archetech.com) Nomicon
     * [Archon](https://github.com/archetech/archon)
     * [Archon schemas](https://github.com/archetech/schemas)
     * [Sigil](https://github.com/archetech/sigil)
+1. A project is added to or removed from that list only by an adopted proposal.
+1. Changes to a project's repository are not rule changes. They are made through the project's own development process, and they MUST comply with the rules of the game.
+1. A project MAY keep its own rules in its repository, such as contribution guidelines or instructions for coding agents. Project rules MUST NOT conflict with the rules of the game, and where they do, the rules of the game prevail.
 
 ## Conventions
 
