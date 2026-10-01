@@ -51,7 +51,7 @@ The [Archetech](https://archetech.com) Nomicon
 
 **33.** The backup Operator is [Flaxscrip](https://github.com/Flaxscrip).
 
-**34.** If the Operator has not merged, reviewed or commented in the game repository for 28 days, any player MAY ask the Operator to respond, in an issue in the game repository. If the Operator does not respond within 7 days of that request, or announces that they cannot act, the backup Operator acts as Operator until the Operator announces their return in the game repository or a proposal names a new Operator.
+**34.** If the Operator has not merged, reviewed or commented in the game repository for 28 days, any player MAY ask the Operator to respond, in an issue in the game repository. If the Operator does not respond within 7 days of that request, or announces that they cannot act, the backup Operator acts as Operator, with all of the Operator's powers and duties, until the Operator announces their return in the game repository or a proposal names a new Operator. This rule takes precedence over rule 12.
 
 **36.** The Operator SHOULD keep a record, which the backup Operator can reach, of how to obtain the access needed to act as Operator.
 
