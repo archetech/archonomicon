@@ -29,7 +29,7 @@ The [Archetech](https://archetech.com) Nomicon
 
 **12.** The Operator is the player who maintains the game repository and carries out the provisions of the rules that are not yet automated. The Operator is [macterra](https://github.com/macterra).
 
-**13.** A proposal is adopted when the Operator merges it. By merging a proposal, the Operator certifies that it met the conditions for adoption in rules 3 and 37.
+**13.** A proposal is adopted when the Operator merges it. By merging a proposal, the Operator certifies that it met the conditions for adoption in the rules.
 
 **14.** A proposal MUST state the change and the reason for it. It SHOULD also state the alternatives considered and its effect on compatibility and security in the projects under jurisdiction.
 
@@ -52,8 +52,6 @@ The [Archetech](https://archetech.com) Nomicon
 **33.** The backup Operator is [Flaxscrip](https://github.com/Flaxscrip).
 
 **34.** If the Operator has not merged, reviewed or commented in the game repository for 28 days, any player MAY ask the Operator to respond, in an issue in the game repository. If the Operator does not respond within 7 days of that request, or announces that they cannot act, the backup Operator acts as Operator until the Operator announces their return in the game repository or a proposal names a new Operator.
-
-**35.** While the backup Operator acts as Operator, the absent Operator's agreement is not required for a proposal to be adopted.
 
 **36.** The Operator SHOULD keep a record, which the backup Operator can reach, of how to obtain the access needed to act as Operator.
 
