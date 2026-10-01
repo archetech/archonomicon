@@ -60,6 +60,16 @@ The [Archetech](https://archetech.com) Nomicon
 
 **24.** A project MAY keep its own rules in its repository, such as contribution guidelines or instructions for coding agents. Project rules MUST NOT conflict with the rules of the game, and where they do, the rules of the game prevail.
 
+## Precedence
+
+**29.** If two rules of the game conflict, a rule that explicitly claims precedence over the other prevails. Otherwise, or if each claims precedence over the other, the rule with the lower number prevails.
+
+**30.** No rule may claim precedence over rule 29.
+
+**31.** Rule 29 applies only to the rules of the game. It does not change how Ulex 1.1 resolves conflicts among its own provisions under rule 20.
+
+**32.** When it is unclear how a rule applies, the Operator decides how to apply it until a proposal resolves the question. This does not limit a player's recourse to Ulex 1.1 under rule 20. A conflict or ambiguity found in the rules SHOULD be resolved by a proposal.
+
 ## Conventions
 
 **25.** The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "SHOULD NOT", "RECOMMENDED", "MAY", and "OPTIONAL" in these rules are to be interpreted as described in [RFC 2119](https://www.ietf.org/rfc/rfc2119.txt).
