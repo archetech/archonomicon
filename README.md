@@ -3,17 +3,17 @@ The [Archetech](https://archetech.com) Nomicon
 
 **1.** The name of the [game](Nomicon/README.md) is Archonomicon.
 
-**2.** The goal of the game is to decentralize the singularity.
+**2.** The goal of the game is to decentralize the singularity. #immutable
 
-**3.** A proposal MUST NOT be adopted while any player objects to it.
+**3.** A proposal MUST NOT be adopted while any player objects to it. #immutable
 
-**4.** Proposals may add, amend or repeal a rule.
+**4.** Proposals may add, amend or repeal a rule. #immutable
 
 **5.** All rules should be logically self-consistent.
 
 ## Players
 
-**6.** The players of the game are listed in [players.md](players.md).
+**6.** The players of the game are listed in [players.md](players.md). #immutable
 
 **7.** A person becomes a player when a proposal adding them to the list is adopted.
 
@@ -21,7 +21,7 @@ The [Archetech](https://archetech.com) Nomicon
 
 ## Proposals
 
-**9.** The rules of the game are the text of the default branch of the [game repository](https://github.com/archetech/archonomicon).
+**9.** The rules of the game are the text of the default branch of the [game repository](https://github.com/archetech/archonomicon), except for records that the rules direct the Operator to keep, such as the list of players. Updating such a record as the rules direct is not a rule change. #immutable
 
 **10.** A proposal is a pull request to the game repository that adds, amends or repeals rules.
 
@@ -29,23 +29,31 @@ The [Archetech](https://archetech.com) Nomicon
 
 **12.** The Operator is the player who maintains the game repository and carries out the provisions of the rules that are not yet automated. The Operator is [macterra](https://github.com/macterra).
 
-**13.** A proposal is adopted when the Operator merges it. By merging a proposal, the Operator certifies that it met the conditions for adoption in the rules.
+**13.** A proposal is adopted when the Operator merges it. By merging a proposal, the Operator certifies that it met the conditions for adoption in the rules. #immutable
 
 **14.** A proposal MUST state the change and the reason for it. It SHOULD also state the alternatives considered and its effect on compatibility and security in the projects under jurisdiction.
 
-**15.** A player agrees to a proposal by approving its pull request. A player who submits a proposal agrees to it by submitting it, and the Operator's merge counts as the Operator's agreement.
+**15.** A player agrees to a proposal by approving its pull request. A player who submits a proposal agrees to it by submitting it, and the Operator's merge counts as the Operator's agreement. #immutable
 
-**16.** An agreement applies only to the text of the proposal as it was when the player approved it. If the proposal changes after that, the earlier agreement no longer counts.
+**16.** An agreement applies only to the text of the proposal as it was when the player approved it. If the proposal changes after that, the earlier agreement no longer counts. #immutable
 
-**37.** A proposal MAY be merged once it has been open for at least 7 days, or sooner if every player has agreed to it. If the proposal changes, the 7 days start again from the change.
+**37.** A proposal MAY be merged once it has been open for at least 7 days, or sooner if every player has agreed to it. If the proposal changes, the 7 days start again from the change. #immutable
 
-**38.** A player objects to a proposal by requesting changes on its pull request. The objection stands until the player withdraws it, by approving the proposal or dismissing their review.
+**38.** A player objects to a proposal by requesting changes on its pull request. The objection stands until the player withdraws it, by approving the proposal or dismissing their review. #immutable
 
 **17.** The adopted text of a proposal is exactly the text merged. A proposal closed without merging is not adopted; it MAY be submitted again.
 
 **18.** An adopted rule change takes effect when it is merged and does not apply to anything that happened before then.
 
 **19.** Every change made to the game repository before this rule was adopted, including [Proposal #1](https://github.com/archetech/archonomicon/pull/1), is ratified as a validly adopted rule change.
+
+## Immutable rules
+
+**39.** A rule MAY carry tags, written as hashtags after its text, such as #immutable. Tags are not part of a rule's text, and a tag has only the effect that a rule gives it. #immutable
+
+**40.** A rule tagged #immutable is immutable, and every other rule is mutable. An immutable rule MUST NOT be amended or repealed. Adding or removing the #immutable tag is a transmutation. A transmutation proposal MUST do nothing else and MUST NOT be adopted without the agreement of every player. This rule takes precedence over rule 4. #immutable
+
+**41.** The Operator MUST NOT merge a proposal that would make it impossible to adopt further proposals. #immutable
 
 ## Succession
 
@@ -74,9 +82,7 @@ The [Archetech](https://archetech.com) Nomicon
 
 ## Precedence
 
-**29.** If two rules of the game conflict, a rule that explicitly claims precedence over the other prevails. Otherwise, or if each claims precedence over the other, the rule with the lower number prevails.
-
-**30.** A claim of precedence over rule 29 or over this rule has no effect, whatever rule 29 says.
+**29.** If two rules of the game conflict, an immutable rule prevails over a mutable one. Otherwise, a rule that explicitly claims precedence over the other prevails. Otherwise, or if each claims precedence over the other, the rule with the lower number prevails. #immutable
 
 **31.** Rule 29 applies only to the rules of the game. It does not change how Ulex 1.1 resolves conflicts among its own provisions under rule 20.
 
@@ -86,8 +92,8 @@ The [Archetech](https://archetech.com) Nomicon
 
 **25.** The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "SHOULD NOT", "RECOMMENDED", "MAY", and "OPTIONAL" in these rules are to be interpreted as described in [RFC 2119](https://www.ietf.org/rfc/rfc2119.txt).
 
-**26.** Each rule has a permanent number, which is how it is cited (for example, "rule 13"). A rule's number says nothing about where it appears: rules MAY be moved between sections, and sections added, split or reordered, without changing any number.
+**26.** Each rule has a permanent number, which is how it is cited (for example, "rule 13"). A rule's number says nothing about where it appears: rules MAY be moved between sections, and sections added, split or reordered, without changing any number. #immutable
 
-**27.** A new rule takes the next number after the highest number ever assigned. An amended rule keeps its number.
+**27.** A new rule takes the next number after the highest number ever assigned. An amended rule keeps its number. #immutable
 
-**28.** A number is never reused. When a rule is repealed, it is removed from the ruleset and recorded, with its number and its last text, in [repealed.md](repealed.md).
+**28.** A number is never reused. When a rule is repealed, it is removed from the ruleset and recorded, with its number and its last text, in [repealed.md](repealed.md). #immutable
