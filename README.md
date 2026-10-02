@@ -94,8 +94,6 @@ The [Archetech](https://archetech.com) Nomicon
 
 **47.** Correcting an implementation to conform to the specification, or correcting the specification where it misdescribes behaviour that every implementation shares, is not a protocol change.
 
-**48.** When a change makes implementations accept operations they previously rejected, software that produces those operations SHOULD NOT emit them until the change is Deployed.
-
 ## Precedence
 
 **29.** If two rules of the game conflict, an immutable rule prevails over a mutable one. Otherwise, a rule that explicitly claims precedence over the other prevails. Otherwise, or if each claims precedence over the other, the rule with the lower number prevails. #immutable
