@@ -90,11 +90,11 @@ The [Archetech](https://archetech.com) Nomicon
 
 **45.** A change to the protocol is made by changing the specification. The change is Proposed when the specification describes it and signed test vectors for it, published in a project under jurisdiction and referenced by the specification, are passed by every implementation. It is Deployed when every implementation has released it and run it on the live network without diverging. An implementation MUST NOT release a protocol change before it is Proposed. The specification MUST record the status of each change.
 
-**46.** A DID is governed by the protocol version named in the registration of its genesis operation. Once a version's rules are Deployed, they MUST NOT be changed in a way that alters which operations are accepted or how a DID resolves, except by a proposal adopted under these rules. Such a change is otherwise made as a new version, which applies only to DIDs created under it.
+**46.** Every protocol change MUST be backwards compatible: every history the network has accepted MUST resolve the same after the change as before it. The specification MUST record how this was shown, either by construction or by an audit of retained histories that states what it covered. A change that cannot be shown to be backwards compatible MUST NOT be made unless a proposal adopted under these rules approves it.
 
-**47.** Correcting an implementation to conform to a Deployed version's rules, or correcting the specification where it misdescribes behaviour that every implementation shares, does not change that version's rules.
+**47.** Correcting an implementation to conform to the specification, or correcting the specification where it misdescribes behaviour that every implementation shares, is not a protocol change.
 
-**48.** A protocol change that applies to DIDs regardless of their version, such as a change to how chain receipts or batches are processed, MUST NOT be Deployed unless a proposal adopted under these rules approves it.
+**48.** When a change makes implementations accept operations they previously rejected, software that produces those operations SHOULD NOT emit them until the change is Deployed.
 
 ## Precedence
 
