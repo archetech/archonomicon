@@ -90,6 +90,10 @@ The [Archetech](https://archetech.com) Nomicon
 
 **45.** A change to the protocol is made by changing the specification. The change is Proposed when the specification describes it and signed test vectors for it, published in a project under jurisdiction and referenced by the specification, are passed by every implementation that accepts operations or resolves DIDs. It is Deployed when every such implementation has released it and run it on the live network without diverging. An implementation MUST NOT release a protocol change before it is Proposed. The specification MUST record the status of each change.
 
+**46.** A protocol change MUST NOT change the result of any history the network has accepted, meaning its accepted operations, DID document, data, registration, deactivation, and the receipt facts used to authorize its operations. The specification MUST record the evidence for each change: that this holds by construction, or an audit of retained histories that states which histories it covered. A change for which neither can be given MUST NOT be made unless a proposal adopted under these rules approves it. This rule takes precedence over rule 43.
+
+**47.** Correcting an implementation to conform to the specification, or correcting the specification where it misdescribes behaviour that every implementation shares, is not a protocol change, unless the correction changes the result of a history the network has accepted, in which case rule 46 applies to it.
+
 ## Precedence
 
 **29.** If two rules of the game conflict, an immutable rule prevails over a mutable one. Otherwise, a rule that explicitly claims precedence over the other prevails. Otherwise, or if each claims precedence over the other, the rule with the lower number prevails. #immutable
