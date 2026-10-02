@@ -88,7 +88,7 @@ The [Archetech](https://archetech.com) Nomicon
 
 **44.** If an implementation is found to depend on behaviour that affects which operations are accepted or how a DID resolves, and the specification does not describe that behaviour, it MUST either be described in the specification with a test vector or be removed from the implementation.
 
-**45.** A change to the protocol is made by changing the specification. The change is Proposed when the specification describes it and signed test vectors for it, published in a project under jurisdiction and referenced by the specification, are passed by every implementation. It is Deployed when every implementation has released it and run it on the live network without diverging. The specification MUST record the status of each change.
+**45.** A change to the protocol is made by changing the specification. The change is Proposed when the specification describes it and signed test vectors for it, published in a project under jurisdiction and referenced by the specification, are passed by every implementation. It is Deployed when every implementation has released it and run it on the live network without diverging. An implementation MUST NOT release a protocol change before it is Proposed. The specification MUST record the status of each change.
 
 **46.** A DID is governed by the protocol version named in the registration of its genesis operation. Once a version's rules are Deployed, they MUST NOT be changed in a way that alters which operations are accepted or how a DID resolves, except by a proposal adopted under these rules. Such a change is otherwise made as a new version, which applies only to DIDs created under it.
 
