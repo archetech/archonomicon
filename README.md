@@ -82,13 +82,13 @@ The [Archetech](https://archetech.com) Nomicon
 
 ## Protocol
 
-**42.** The protocol implemented by the projects under jurisdiction is defined by the [did:cid specification](https://github.com/archetech/didcid-specs). Every implementation of it in those projects MUST conform to the specification.
+**42.** The did:cid protocol is defined by the [did:cid specification](https://github.com/archetech/didcid-specs). Every implementation of the protocol in the projects under jurisdiction MUST conform to the specification.
 
 **43.** A difference between an implementation and the specification, or between two implementations, is a defect. It MUST be corrected in the implementation, unless the specification is silent or in error, in which case the specification MUST be corrected first.
 
 **44.** If an implementation is found to depend on behaviour that affects which operations are accepted or how a DID resolves, and the specification does not describe that behaviour, it MUST either be described in the specification with a test vector or be removed from the implementation.
 
-**45.** A change to the protocol is made by changing the specification. The change is Proposed when the specification describes it and signed test vectors for it, published in a project under jurisdiction and referenced by the specification, are passed by every implementation. It is Deployed when every implementation has released it and run it on the live network without diverging. An implementation MUST NOT release a protocol change before it is Proposed. The specification MUST record the status of each change.
+**45.** A change to the protocol is made by changing the specification. The change is Proposed when the specification describes it and signed test vectors for it, published in a project under jurisdiction and referenced by the specification, are passed by every implementation that accepts operations or resolves DIDs. It is Deployed when every such implementation has released it and run it on the live network without diverging. An implementation MUST NOT release a protocol change before it is Proposed. The specification MUST record the status of each change.
 
 ## Precedence
 
