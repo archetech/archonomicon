@@ -90,6 +90,12 @@ The [Archetech](https://archetech.com) Nomicon
 
 **45.** A change to the protocol is made by changing the specification. The change is Proposed when the specification describes it and signed test vectors for it, published in a project under jurisdiction and referenced by the specification, are passed by every implementation. It is Deployed when every implementation has released it and run it on the live network without diverging. The specification MUST record the status of each change.
 
+**46.** A DID is governed by the protocol version named in the registration of its genesis operation. Once a version's rules are Deployed, they MUST NOT be changed in a way that alters which operations are accepted or how a DID resolves, except by a proposal adopted under these rules. Such a change is otherwise made as a new version, which applies only to DIDs created under it.
+
+**47.** Correcting an implementation to conform to a Deployed version's rules, or correcting the specification where it misdescribes behaviour that every implementation shares, does not change that version's rules.
+
+**48.** A protocol change that applies to DIDs regardless of their version, such as a change to how chain receipts or batches are processed, MUST NOT be Deployed unless a proposal adopted under these rules approves it.
+
 ## Precedence
 
 **29.** If two rules of the game conflict, an immutable rule prevails over a mutable one. Otherwise, a rule that explicitly claims precedence over the other prevails. Otherwise, or if each claims precedence over the other, the rule with the lower number prevails. #immutable
