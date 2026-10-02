@@ -96,7 +96,7 @@ The [Archetech](https://archetech.com) Nomicon
 
 **48.** The specification MUST state each property of the protocol that has been formally proved, such as the convergence of accepted histories (`protocol_convergence`), with the proof's assumptions and a reference to the proof, which MUST be published in a project under jurisdiction.
 
-**49.** A protocol change that affects the rules a proved property depends on MUST NOT become Proposed until the proof has been updated for the change and still checks, with no assumptions beyond those the specification states, unless the specification records that the change gives up the property.
+**49.** A protocol change that affects the rules a proved property depends on MUST NOT become Proposed until the proof has been updated for the change and still checks, with no admitted steps and no axioms or assumptions beyond those it relied on before the change, unless the specification records that the change gives up or narrows the property.
 
 ## Precedence
 
