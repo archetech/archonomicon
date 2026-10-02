@@ -43,6 +43,16 @@ The [Archetech](https://archetech.com) Nomicon
 
 **19.** Every change made to the game repository before this rule was adopted, including [Proposal #1](https://github.com/archetech/archonomicon/pull/1), is ratified as a validly adopted rule change.
 
+## Succession
+
+**33.** The backup Operator is [Flaxscrip](https://github.com/Flaxscrip).
+
+**34.** If the Operator has not merged, reviewed or commented in the game repository for 28 days, any player MAY ask the Operator to respond, in an issue in the game repository. If the Operator does not respond within 7 days of that request, or announces that they cannot act, the backup Operator acts as Operator, with all of the Operator's powers and duties, until the Operator announces their return in the game repository or a proposal names a new Operator. This rule takes precedence over rule 12.
+
+**35.** While the backup Operator acts as Operator, the absent Operator's agreement is not required for a proposal to be adopted. This rule takes precedence over rule 3.
+
+**36.** The Operator SHOULD keep a record, which the backup Operator can reach, of how to obtain the access needed to act as Operator.
+
 ## Jurisdiction
 
 **20.** Only [Ulex 1.1](https://github.com/proftomwbell/Ulex/tree/master/versions/1.1) governs any claim or question arising under or related to this agreement, including the proper forum for resolving disputes, all rules applied therein, and the form and effect of any judgement.
