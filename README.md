@@ -96,6 +96,10 @@ The [Archetech](https://archetech.com) Nomicon
 
 **48.** A protocol change that applies to DIDs regardless of their version, such as a change to how chain receipts or batches are processed, MUST NOT be Deployed unless a proposal adopted under these rules approves it.
 
+**49.** The specification MUST state each property of the protocol that has been formally proved, such as the convergence of accepted histories (`protocol_convergence`), with the proof's assumptions and a reference to the proof, which MUST be published in a project under jurisdiction.
+
+**50.** A protocol change that affects the rules a proved property depends on MUST NOT become Proposed until the proof has been updated for the change and still checks, with no assumptions beyond those the specification states, unless the specification records that the change gives up the property.
+
 ## Precedence
 
 **29.** If two rules of the game conflict, an immutable rule prevails over a mutable one. Otherwise, a rule that explicitly claims precedence over the other prevails. Otherwise, or if each claims precedence over the other, the rule with the lower number prevails. #immutable
