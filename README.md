@@ -19,6 +19,8 @@ The [Archetech](https://archetech.com) Nomicon
 
 **8.** A player may leave the game at any time by announcing it in the game repository, after which the Operator MUST remove them from the list.
 
+**50.** A player listed in [players.md](players.md) MAY carry tags, written as hashtags in their entry. A tag has only the effect that a rule gives it. Tags are added to or removed from a player only by an adopted proposal. Removing a player from the list under rule 8 also removes their tags.
+
 ## Proposals
 
 **9.** The rules of the game are the text of the default branch of the [game repository](https://github.com/archetech/archonomicon), except for records that the rules direct the Operator to keep, such as the list of players. Updating such a record as the rules direct is not a rule change. #immutable
@@ -27,7 +29,7 @@ The [Archetech](https://archetech.com) Nomicon
 
 **11.** Anyone MAY submit a proposal, but only the agreement and objections of players count toward its adoption.
 
-**12.** The Operator is the player who maintains the game repository and carries out the provisions of the rules that are not yet automated. The Operator is [macterra](https://github.com/macterra).
+**12.** The Operator is the player who maintains the game repository and carries out the provisions of the rules that are not yet automated. The Operator is the player tagged #operator in [players.md](players.md), and exactly one player MUST carry that tag.
 
 **13.** A proposal is adopted when the Operator merges it. By merging a proposal, the Operator certifies that it met the conditions for adoption in the rules. #immutable
 
@@ -57,9 +59,11 @@ The [Archetech](https://archetech.com) Nomicon
 
 ## Succession
 
-**33.** The backup Operator is [Flaxscrip](https://github.com/Flaxscrip).
+**33.** The backup Operator is the player tagged #backup-operator in [players.md](players.md). At most one player MAY carry that tag, and it MUST NOT be the Operator.
 
 **34.** If the Operator has not merged, reviewed or commented in the game repository for 28 days, any player MAY ask the Operator to respond, in an issue in the game repository. If the Operator does not respond within 7 days of that request, or announces that they cannot act, the backup Operator acts as Operator, with all of the Operator's powers and duties, until the Operator announces their return in the game repository or a proposal names a new Operator. This rule takes precedence over rule 12.
+
+**51.** If the Operator leaves the game, the backup Operator acts as Operator, with all of the Operator's powers and duties, until a proposal names a new Operator. This rule takes precedence over rule 12.
 
 **36.** The Operator SHOULD keep a record, which the backup Operator can reach, of how to obtain the access needed to act as Operator.
 
