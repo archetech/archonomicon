@@ -102,6 +102,18 @@ The [Archetech](https://archetech.com) Nomicon
 
 **49.** A protocol change that affects the rules a proved property depends on MUST NOT become Proposed until the proof has been updated for the change and still checks, with no admitted steps and no axioms or assumptions beyond those it relied on before the change, unless the specification records that the change gives up or narrows the property.
 
+## Security
+
+**52.** A vulnerability in the did:cid protocol or in an implementation of it SHOULD be reported privately, through Archon's [private vulnerability reporting](https://github.com/archetech/archon/security/advisories/new). Until a fix has been released, players MUST NOT disclose it publicly.
+
+**53.** When a vulnerability puts the network or its users at risk, the Operator or the backup Operator MAY authorize a fix to be released in every affected implementation before it is Proposed and without the evidence of compatibility otherwise required. The fix MUST do no more than is needed to address the vulnerability. Until the specification describes the fix under rule 55, this rule takes precedence over rules 42 to 46.
+
+**54.** Operators of nodes known to the players SHOULD be told privately to upgrade before a vulnerability fixed under rule 53 is disclosed.
+
+**55.** Within 30 days of releasing a fix under rule 53, the specification MUST describe the fix, with test vectors and its status, and record its effect on accepted histories. A fix that changed the result of an accepted history MUST then be submitted as a proposal for approval under these rules. If that proposal is closed without being adopted, or is not adopted within 30 days of being submitted, the change to that history MUST be undone or replaced by a fix that does not make it. This rule takes precedence over rule 53.
+
+**56.** Rule 53 does not permit any change to the rules of the game, nor any action contrary to them beyond what it allows.
+
 ## Precedence
 
 **29.** If two rules of the game conflict, an immutable rule prevails over a mutable one. Otherwise, a rule that explicitly claims precedence over the other prevails. Otherwise, or if each claims precedence over the other, the rule with the lower number prevails. #immutable
