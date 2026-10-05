@@ -19,7 +19,7 @@ The [Archetech](https://archetech.com) Nomicon
 
 **8.** A player may leave the game at any time by announcing it in the game repository, after which the Operator MUST remove them from the list.
 
-**50.** A player listed in [players.md](players.md) MAY carry tags, written as hashtags in their entry. A tag has only the effect that a rule gives it. Tags are added to or removed from a player only by an adopted proposal.
+**50.** A player listed in [players.md](players.md) MAY carry tags, written as hashtags in their entry. A tag has only the effect that a rule gives it. Tags are added to or removed from a player only by an adopted proposal. Removing a player from the list under rule 8 also removes their tags.
 
 ## Proposals
 
