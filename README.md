@@ -69,7 +69,7 @@ The [Archetech](https://archetech.com) Nomicon
 
 ## Jurisdiction
 
-**20.** Only [Ulex 1.1](https://github.com/proftomwbell/Ulex/tree/master/versions/1.1) governs any claim or question arising under or related to this agreement, including the proper forum for resolving disputes, all rules applied therein, and the form and effect of any judgement.
+**20.** Only [Ulex 1.2](https://github.com/ulex-opensource/Ulex/tree/68f78bd5dec9174211fd10a4a81cbce498f03566/versions/1.2) governs any claim or question arising under or related to this agreement, including the proper forum for resolving disputes, all rules applied therein, and the form and effect of any judgement.
 
 **21.** Projects that fall under the jurisdiction of Archonomicon:
 
@@ -120,9 +120,9 @@ The [Archetech](https://archetech.com) Nomicon
 
 **29.** If two rules of the game conflict, an immutable rule prevails over a mutable one. Otherwise, a rule that explicitly claims precedence over the other prevails. Otherwise, or if each claims precedence over the other, the rule with the lower number prevails. #immutable
 
-**31.** Rule 29 applies only to the rules of the game. It does not change how Ulex 1.1 resolves conflicts among its own provisions under rule 20.
+**31.** Rule 29 applies only to the rules of the game. It does not change how the legal system named in rule 20 resolves conflicts among its own provisions.
 
-**32.** When it is unclear how a rule applies, the Operator decides how to apply it until a proposal resolves the question. This does not limit a player's recourse to Ulex 1.1 under rule 20. A conflict or ambiguity found in the rules SHOULD be resolved by a proposal.
+**32.** When it is unclear how a rule applies, the Operator decides how to apply it until a proposal resolves the question. This does not limit a player's recourse under rule 20. A conflict or ambiguity found in the rules SHOULD be resolved by a proposal.
 
 ## Conventions
 
