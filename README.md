@@ -73,12 +73,14 @@ The [Archetech](https://archetech.com) Nomicon
 
 **21.** Projects that fall under the jurisdiction of Archonomicon:
 
-* [Archon](https://github.com/archetech/archon)
-* [Archon schemas](https://github.com/archetech/schemas)
-* [Sigil](https://github.com/archetech/sigil)
-* [did:cid specifications](https://github.com/archetech/didcid-specs)
+* [Archon](https://github.com/archetech/archon) ([acknowledgement](https://github.com/archetech/archon/blob/main/GOVERNANCE.md))
+* [Archon schemas](https://github.com/archetech/schemas) ([acknowledgement](https://github.com/archetech/schemas/blob/main/GOVERNANCE.md))
+* [Sigil](https://github.com/archetech/sigil) ([acknowledgement](https://github.com/archetech/sigil/blob/main/GOVERNANCE.md))
+* [did:cid specifications](https://github.com/archetech/didcid-specs) ([acknowledgement](https://github.com/archetech/didcid-specs/blob/main/GOVERNANCE.md))
 
-**22.** A project is added to or removed from the list in rule 21 only by an adopted proposal.
+**22.** A project is added to or removed from the list in rule 21 only by an adopted proposal. A proposal that adds a project MUST link to the project's acknowledgement under rule 57, made through the project's own development process.
+
+**57.** Each project listed in rule 21 MUST keep, on the default branch of its repository, a file named `GOVERNANCE.md` that acknowledges the jurisdiction of Archonomicon. The file SHOULD cite the rules by number rather than restate them. The project's entry in rule 21 links to that file.
 
 **23.** Changes to a project's repository are not rule changes. They are made through the project's own development process, and they MUST comply with the rules of the game.
 
